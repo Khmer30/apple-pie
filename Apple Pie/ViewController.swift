@@ -126,10 +126,10 @@ class ViewController: UIViewController {
 //    let list = cast.jointed(separator: "", ")
 //        print(list)
                             
-                            
+                             
     @IBAction func letterButtonPressed(_ sender: UIButton) {
         sender.isEnabled = false
-        let letterString = sender.title(for: .normal)!
+        let letterString = sender.titleLabel!.text!
         let letter = Character(letterString.lowercased())
         // explain more....
         currentGame.playerGuessed(letter: letter)
