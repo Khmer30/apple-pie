@@ -25,7 +25,7 @@ struct Game {
             if guessedLetters.contains(letter) {
                 guessedWord += "\(letter)"
             } else {
-                guessedWord += "_"
+                guessedWord += "-"
             }
         }
         return guessedWord
