@@ -8,48 +8,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "04468332-79C5-45FD-B639-EB829EC33538"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Apple Pie/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "letterButtonPressed(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "04468332-79C5-45FD-B639-EB829EC33538 - de90abed87704674"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Apple_Pie.ViewController.letterButtonPressed(__C.UIButton) -&gt; ()"
-                  moduleName = "Apple Pie"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/creative/Library/Mobile%20Documents/com~apple~CloudDocs/Education/Apple%20Pie/Apple%20Pie/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
-                  offsetFromSymbolStart = "148">
-               </Location>
-               <Location
-                  uuid = "04468332-79C5-45FD-B639-EB829EC33538 - de90abed87704674"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Apple_Pie.ViewController.letterButtonPressed(__C.UIButton) -&gt; ()"
-                  moduleName = "Apple Pie"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/creative/Library/Mobile%20Documents/com~apple~CloudDocs/Education/Apple%20Pie/Apple%20Pie/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
-                  offsetFromSymbolStart = "192">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

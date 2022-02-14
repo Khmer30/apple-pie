@@ -19,6 +19,7 @@ struct Game {
             incorrectMovesRemaining -= 1
         }
     }
+    
     var formattedWord: String {
         var guessedWord = ""
         for letter in word {
@@ -30,29 +31,11 @@ struct Game {
         }
         return guessedWord
     }
-    
-//    func updateUI() {
-//        var letters = [String] ()
-//        for letter in currentGame.formattedWord {
-//            letters.append(String(letter))
-//        }
-//    }
 }
 
 var listOfWords = ["buccaneer", "swift", "glorious", "incandesent", "bug", "program"]
 
 let incorrectMovesAllowed = 7
-
-//var totalWins = 0 {
-//    didSet {
-//        newRound()
-//    }
-//}
-//var totalLosses = 0 {
-//    didSet {
-//        newRound()
-//    }
-//}
 
 class ViewController: UIViewController {
 
@@ -67,19 +50,7 @@ class ViewController: UIViewController {
         newRound()
     }
     var currentGame: Game!
-    
-//    var formattedWord: String {
-//        var guessedWord = ""
-//        for letter in word {
-//            if guessedLetters.contains(letter) {
-//               guessedWord += "\(letter)"
-//            } else {
-//                guessedWord += "_"
-//            }
-//        }
-//        return guessedWord
-//    }
-    
+ 
     var totalWins = 0 {
         didSet {
             newRound()
@@ -90,6 +61,7 @@ class ViewController: UIViewController {
             newRound()
         }
     }
+    
     func newRound() {
         if !listOfWords.isEmpty {
             let newWord = listOfWords.removeFirst()
@@ -121,12 +93,7 @@ class ViewController: UIViewController {
         scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLosses)"
         treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
     }
-    
-//    let cast = ["Vivien", "Marlon", "Kim", "Karl"]
-//    let list = cast.jointed(separator: "", ")
-//        print(list)
-                            
-                             
+              
     @IBAction func letterButtonPressed(_ sender: UIButton) {
         sender.isEnabled = false
         let letterString = sender.titleLabel!.text!
@@ -146,6 +113,4 @@ class ViewController: UIViewController {
             updateUI()
         }
     }
-
 }
-
